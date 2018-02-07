@@ -1,0 +1,88 @@
+#nav-default {
+    background-color:black;
+    background-image: none;
+    background-repeat: no-repeat;
+    height: 140px;
+    padding: 30px;
+}
+
+#ul-default{
+    color: white;
+    font-size: 12px;
+    margin-right: 70px;
+    margin-top: 30px;
+}
+
+#homeimage{
+    float: left;
+    height: 90px;
+    margin-left: 100px;
+
+}
+
+#ul-default > li > a:hover{
+    color: aqua;
+}
+
+#ul-default > li > a{
+    color: white;
+}
+
+#globe{
+    font-size:36px;
+    margin-left: 20px;
+    color: darkturquoise;
+}
+
+#search{
+    font-size:20px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+#ul-default > li > i.fa-globe:hover{
+    color: aqua;
+    font-size:48px;
+    transition: 0.2s ease-in-out;
+}
+
+#ul-default > li > i.fa-search:hover{
+    color: aqua;
+}
+
+#backgroundimage {
+    margin-top: 0px;
+    background-image: url("BMW.png");
+    width: 100vw;
+    height: 70vh;
+    background-repeat: no-repeat;
+    padding: 30px;
+
+}
+
+#red_div{
+    height: 15vh;
+    background: red;
+    padding: 20px;
+    color: white;
+    position: relative;
+}
+
+#redtext{
+
+    margin-left: 70px;
+}
+#redtext2{
+    margin-left: 70px;
+    bottom: 10px;
+}
+
+#findyourcar{
+
+    background-color: black;
+    color:white;
+    position: absolute;
+    right: 10px;
+    bottom: 50px;
+    margin-right: 250px;
+}
