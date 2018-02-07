@@ -53,7 +53,7 @@
 }
 
 #backgroundimage {
-    background-image: url("BMW.png");
+    background-image: url("Images/BMW.png");
     margin: 0 auto;
     padding: 0;
     display: block;
@@ -64,7 +64,7 @@
 
 }
 
-#red_div{
+#red_div , #red_div2{
     height: 15vh;
     background: red;
     padding: 20px;
@@ -72,16 +72,15 @@
     position: relative;
 }
 
-#redtext{
+#redtext , #redtext2{
     font-size: 30px;
-    margin-top: 20px;
+    margin-top: 10px;
     word-spacing: 10px;
     margin-left: 70px;
 }
 
 
-#findyourcar{
-
+#findyourcar , #AskYourQuestion{
     background-color: black;
     color:white;
     position: absolute;
@@ -98,6 +97,7 @@ h1 {
     z-index: 1;
     overflow: hidden;
     text-align: center;
+    margin-top: 70px;
 }
 h1:before, h1:after {
     position: absolute;
@@ -140,5 +140,52 @@ div.item > img {
     padding: 30px;
     color: black;
 }
+.news{
+    padding: 50px;
+}
+.newsitem{
+    padding: 50px;
+    border: solid 1px black;
+}
+.newsitem > img{
+    width: 250px;
+    height: 250px;
+    background-color:mediumturquoise;
+    margin-left: 30px;
+}
+.news{
+    padding: 50px;
+}
+.newsitem > i{
+    background-color: black;
+    color: white;
+    font-size:16px;
+}
+
+.newsitem > button{
+    margin-left: 50px;
+}
+
+.caption2{
+    color: black;
+    font-size: 15px;
+    padding: 80px;
+    display: inline-block;
+}
+
+.endclass{
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 80px;
+    padding: 10px;
+}
+
+.caption3{
+    color: black;
+    font-size: 15px;
+}
+
+
+
 
 
